@@ -1,0 +1,64 @@
+
+.faux-select .selected-option, #times {
+    font-size: 1.2vw !important;
+}
+#operation, #times{
+    padding-top: 0.3vw;
+}
+.faux-select .selected-option,
+.faux-select .selected-option> span >div,
+.faux-select>li~ span >div {
+    width: 13vw;
+}
+
+.faux-select .selected-option>div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    border: 1px rgb(163, 160, 160) solid;
+    cursor: pointer;
+}
+
+.openlist {top: 0.45rem;
+    padding: 0 0.5vw 0 0.4vw;
+    position: relative;
+    font-size: 0.6vw;;
+}
+
+.faux-select .active {
+    border-bottom: none !important;
+}
+
+.faux-select>li~ span > div {
+    cursor: pointer;
+    display: block !important;
+    position: absolute !important;
+    z-index: 9900;
+    background-color: #fff;
+}
+
+.faux-select .dropdown {
+    border: 1px solid #000
+}
+
+.faux-select>li~ span > div>li:hover {
+    background-color: #3fa6f5;
+    border-radius: 1vw;
+    color: #fff;
+}
+
+.faux-select>li~ span > div>li>span {
+    padding: 0 0.6vw 0 0.3vw;
+}
+#times{
+    position: absolute;
+    white-space: nowrap;
+    cursor: pointer;
+    border-bottom: dashed 1px  #000;
+}
+.none > div{
+    border: none !important;
+}

@@ -1,0 +1,41 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navigation{
+    font-size: 1.6vw;
+    margin: 2.5vw 1.5vw 3vw 1.5vw;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1.5vw 1fr 1.5vw 1fr 1.5vw 1fr 1.5vw 1fr 1.5vw 1fr 1.5vw 1fr;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1.5vw;
+    
+}
+.navigation .activ > a{
+    text-decoration: none !important;
+    color: #fff !important;
+    background-color: #8DCDFD;
+    border-radius: 2vw;
+    left: -1vw;
+}
+.navigation sub{
+    vertical-align: super;
+    text-decoration: none !important;
+    font-size: 1.2vw !important;
+}
+.navigation a{
+    -webkit-text-decoration-color: #000;
+            text-decoration-color: #000;
+}
+.navigation .item > a{
+    font-weight: 100;
+    color: #000;
+    text-decoration: none;
+    position: relative;
+    text-decoration: underline;
+    -webkit-text-decoration-skip-ink: none;
+            text-decoration-skip-ink: none;
+    width: auto;
+    padding: 1vw;
+}
