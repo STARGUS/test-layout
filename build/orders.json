@@ -1,0 +1,1947 @@
+{
+    "header": {
+        "moneybalans": "5420",
+        "bonusbalans": "29",
+        "moneybonus": "12345",
+        "sale": "10",
+        "collection_to": "2",
+        "collection_max": "11",
+        "tasks_to": "7",
+        "tasks_max": "18"
+    },
+    "awards_all": [
+        {
+            "id" : "awar1",
+            "awards_img": "man_74791.svg",
+            "awards_name": "img1"
+        },
+        {
+            "id" : "awar2",
+            "awards_img": "menu.svg",
+            "awards_name": "img2"
+        },
+        {
+            "id" : "awar3",
+            "awards_img": "man_74791.svg",
+            "awards_name": "img3"
+        },
+        {
+            "id" : "awar4",
+            "awards_img": "menu.svg",
+            "awards_name": "img4"
+        },
+        {
+            "id" : "awar5",
+            "awards_img": "man_74791.svg",
+            "awards_name": "img5"
+        },
+        {
+            "id" : "awar6",
+            "awards_img": "menu.svg",
+            "awards_name": "img6"
+        },
+        {
+            "id" : "awar7",
+            "awards_img": "man_74791.svg",
+            "awards_name": "img7"
+        }
+    ],
+    "new_soon": [
+        {
+            "key": "delivery",
+            "id": "xf1",
+            "name": "Доставка",
+            "data": "в пятницу, 24 апреля",
+            "bonus_item": 30
+        },
+        {
+            "key": "reward",
+            "id": "xf2",
+            "name": "Награда близка",
+            "data": "в пятницу, 24 апреля",
+            "sale": "15%"
+        },
+        {
+            "key": "delivery",
+            "id": "xf3",
+            "name": "Доставка",
+            "data": "в пятницу, 24 апреля",
+            "bonus_item": 30
+        },
+        {
+            "key": "reward",
+            "id": "xf4",
+            "name": "Награда близка",
+            "data": "Оставьте лайк на нашей странице в Facebook",
+            "bonus": 50
+        },
+        {
+            "key": "reward",
+            "id": "xf6",
+            "name": "Награда близка",
+            "data": "Первый заказ друга",
+            "sale": "10%"
+        },
+        {
+            "key": "delivery",
+            "id": "xf7",
+            "name": "Доставка",
+            "data": "в пятницу, 24 апреля",
+            "sale": "10%"
+        },
+        {
+            "key": "delivery",
+            "id": "xf8",
+            "name": "Доставка",
+            "data": "в пятницу, 24 апреля",
+            "bonus": 30
+        }
+    ],
+    "new_recently": [
+        {
+            "key": "pay",
+            "id": "xf12",
+            "name": "Оплачен заказ",
+            "date": "11 марта",
+            "summ": 1260,
+            "addr": "Дом",
+            "number": 10191
+        },
+        {
+            "key": "reward",
+            "id": "xf13",
+            "name": "Получена награда за задание",
+            "data": "в пятницу, 24 апреля",
+            "bonus": 30
+        },
+        {
+            "key": "adjustment",
+            "id": "xf14",
+            "data": "Корректировка баланса на заказ",
+            "number": 10190
+        },
+        {
+            "key": "reward",
+            "id": "xf15",
+            "name": "Получена награда за задание",
+            "data": "Расскажи о нас на Facebook",
+            "bonus": 100
+        }
+    ],
+    "orders": [
+        {
+            "id": "acc-01",
+            "order": 4013,
+            "dates": "01-01-2021 12:33",
+            "coming_bonus": 30,
+            "rate": 1100,
+            "addr_account": {
+                "name": "Дочь",
+                "addr": "Москва, ул. Дмитрия Ульянова, дом 31, кв. 5"
+            },
+            "data": {
+                "data_account": "Татьяна Жаброва",
+                "tel": [
+                    "+7 495 674-24-78",
+                    "+7 495 674-24-78"
+                ],
+                "date_delivery": {
+                    "dats": "14 марта 2015 года",
+                    "tims": "доставка до 14:00"
+                },
+                "interval_delivery": {
+                    "withs": "16:00",
+                    "before": "18:00"
+                },
+                "comment": [
+                    "Заказ от колл-центра uacall.com",
+                    "Этаж 5 П-зд 2 Домофон 35",
+                    "Клиентка попросила перезвонить за час до доставки"
+                ],
+                "payment_methods": "наличными курьеру",
+                "products_list": [
+                    {
+                        "id": "as1",
+                        "product": "Коровье молоко",
+                        "size": "1 литр",
+                        "price": 70,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as2",
+                        "product": "Сметана",
+                        "size": "200 мл",
+                        "price": 150,
+                        "count": 3,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as7",
+                        "product": "Творог",
+                        "size": "200 гр",
+                        "price": 110,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as6",
+                        "product": "Куриные яйца",
+                        "size": "10 шт",
+                        "price": 145,
+                        "count": 2,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as3",
+                        "product": "Домашние циплята",
+                        "size": "1 шт",
+                        "price": 190,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as4",
+                        "product": "Паштет из печени",
+                        "size": "1 кг",
+                        "price": 240,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as5",
+                        "product": "Овощное рагу",
+                        "size": "1 кг",
+                        "price": 180,
+                        "count": 1,
+                        "summ": 0
+                    }
+                ],
+                "product_summ": 0,
+                "rate_bonus": 150,
+                "person_discount": 10,
+                "discount_poll": 6,
+                "rate_delivery": 250,
+                "summ_order": 0,
+                "summ_bonus": 0
+            }
+        },
+        {
+            "id": "acc-1232",
+            "order": "4013",
+            "dates": "01-02-2021 12:33",
+            "coming_bonus": 30,
+            "rate": 1100,
+            "addr_account": {
+                "name": "Дача",
+                "addr": "Москва, ул. Дмитрия Ульянова, дом 31, кв. 5"
+            },
+            "data": {
+                "data_account": "Татьяна Жаброва",
+                "tel": [
+                    "+7 495 674-24-78",
+                    "+7 495 674-24-78"
+                ],
+                "date_delivery": {
+                    "dats": "14 марта 2015 года",
+                    "tims": "доставка до 14:00"
+                },
+                "interval_delivery": {
+                    "withs": "16:00",
+                    "before": "18:00"
+                },
+                "comment": [
+                    "Заказ от колл-центра uacall.com",
+                    "Этаж 5 П-зд 2 Домофон 35",
+                    "Клиентка попросила перезвонить за час до доставки"
+                ],
+                "payment_methods": "наличными курьеру",
+                "products_list": [
+                    {
+                        "id": "as1",
+                        "product": "Коровье молоко",
+                        "size": "1 литр",
+                        "price": 70,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as7",
+                        "product": "Творог",
+                        "size": "200 гр",
+                        "price": 110,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as6",
+                        "product": "Куриные яйца",
+                        "size": "10 шт",
+                        "price": 145,
+                        "count": 2,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as5",
+                        "product": "Овощное рагу",
+                        "size": "1 кг",
+                        "price": 180,
+                        "count": 1,
+                        "summ": 0
+                    }
+                ],
+                "product_summ": 0,
+                "person_discount": 10,
+                "discount_poll": 6,
+                "rate_delivery": 250,
+                "summ_order": "rate",
+                "summ_bonus": "coming_bonus"
+            }
+        },
+        {
+            "id": "acc-01",
+            "order": "4013",
+            "dates": "01-03-2021 12:33",
+            "rate": 1100,
+            "addr_account": {
+                "name": "Мама",
+                "addr": "Москва, ул. Дмитрия Ульянова, дом 31, кв. 5"
+            },
+            "data": {
+                "data_account": "Татьяна Жаброва",
+                "tel": [
+                    "+7 495 674-24-78",
+                    "+7 495 674-24-78"
+                ],
+                "date_delivery": {
+                    "dats": "14 марта 2015 года",
+                    "tims": "доставка до 14:00"
+                },
+                "interval_delivery": {
+                    "withs": "16:00",
+                    "before": "18:00"
+                },
+                "comment": [
+                    "Заказ от колл-центра uacall.com",
+                    "Этаж 5 П-зд 2 Домофон 35",
+                    "Клиентка попросила перезвонить за час до доставки"
+                ],
+                "payment_methods": "наличными курьеру",
+               "products_list": [
+                    {
+                        "id": "as1",
+                        "product": "Коровье молоко",
+                        "size": "1 литр",
+                        "price": 70,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as2",
+                        "product": "Сметана",
+                        "size": "200 мл",
+                        "price": 150,
+                        "count": 3,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as7",
+                        "product": "Творог",
+                        "size": "200 гр",
+                        "price": 110,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as6",
+                        "product": "Куриные яйца",
+                        "size": "10 шт",
+                        "price": 145,
+                        "count": 2,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as3",
+                        "product": "Домашние циплята",
+                        "size": "1 шт",
+                        "price": 190,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as4",
+                        "product": "Паштет из печени",
+                        "size": "1 кг",
+                        "price": 240,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as5",
+                        "product": "Овощное рагу",
+                        "size": "1 кг",
+                        "price": 180,
+                        "count": 1,
+                        "summ": 0
+                    }
+                ],
+                "product_summ": 0,
+                "rate_bonus": 150,
+                "person_discount": 10,
+                "discount_poll": 6,
+                "rate_delivery": 250,
+                "summ_order": "rate",
+                "summ_bonus": "coming_bonus"
+            }
+        },
+        {
+            "id": "acc-01",
+            "order": "4013",
+            "dates": "10.03.2021 12:33",
+            "rate": 1100,
+            "addr_account": {
+                "name": "Наташе",
+                "addr": "Москва, ул. Дмитрия Ульянова, дом 31, кв. 5"
+            },
+            "data": {
+                "data_account": "Татьяна Жаброва",
+                "tel": [
+                    "+7 495 674-24-78",
+                    "+7 495 674-24-78"
+                ],
+                "date_delivery": {
+                    "dats": "14 марта 2015 года",
+                    "tims": "доставка до 14:00"
+                },
+                "interval_delivery": {
+                    "withs": "13:00",
+                    "before": "14:00"
+                },
+                "comment": [
+                    "Заказ от колл-центра uacall.com",
+                    "Этаж 5 П-зд 2 Домофон 35",
+                    "Клиентка попросила перезвонить за час до доставки"
+                ],
+                "payment_methods": "наличными курьеру",
+               "products_list": [
+                    {
+                        "id": "as1",
+                        "product": "Коровье молоко",
+                        "size": "1 литр",
+                        "price": 70,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as2",
+                        "product": "Сметана",
+                        "size": "200 мл",
+                        "price": 150,
+                        "count": 3,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as7",
+                        "product": "Творог",
+                        "size": "200 гр",
+                        "price": 110,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as6",
+                        "product": "Куриные яйца",
+                        "size": "10 шт",
+                        "price": 145,
+                        "count": 2,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as3",
+                        "product": "Домашние циплята",
+                        "size": "1 шт",
+                        "price": 190,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as4",
+                        "product": "Паштет из печени",
+                        "size": "1 кг",
+                        "price": 240,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as5",
+                        "product": "Овощное рагу",
+                        "size": "1 кг",
+                        "price": 180,
+                        "count": 1,
+                        "summ": 0
+                    }
+                ],
+                "product_summ": 0,
+                "rate_bonus": 150,
+                "person_discount": 10,
+                "discount_poll": 6,
+                "rate_delivery": 250,
+                "summ_order": "rate",
+                "summ_bonus": "coming_bonus"
+            }
+        },
+        {
+            "id": "acc-02",
+            "order": "4013",
+            "dates": "11.02.2021 12:33",
+            "coming_bonus": 30,
+            "rate": 1100,
+            "addr_account": {
+                "name": "Ульяне",
+                "addr": "Москва, ул. Батуринская, дом 50/26"
+            },
+            "data": {
+                "data_account": "Татьяна Жаброва",
+                "tel": [
+                    "+7 495 674-24-78",
+                    "+7 495 674-24-78"
+                ],
+                "date_delivery": {
+                    "dats": "14 марта 2015 года",
+                    "tims": "доставка до 14:00"
+                },
+                "interval_delivery": {
+                    "withs": "16:00",
+                    "before": "18:00"
+                },
+                "comment": [
+                    "Заказ от колл-центра uacall.com",
+                    "Этаж 5 П-зд 2 Домофон 35",
+                    "Клиентка попросила перезвонить за час до доставки"
+                ],
+                "payment_methods": "наличными курьеру",
+               "products_list": [
+                    {
+                        "id": "as1",
+                        "product": "Коровье молоко",
+                        "size": "1 литр",
+                        "price": 70,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as2",
+                        "product": "Сметана",
+                        "size": "200 мл",
+                        "price": 150,
+                        "count": 3,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as7",
+                        "product": "Творог",
+                        "size": "200 гр",
+                        "price": 110,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as6",
+                        "product": "Куриные яйца",
+                        "size": "10 шт",
+                        "price": 145,
+                        "count": 2,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as3",
+                        "product": "Домашние циплята",
+                        "size": "1 шт",
+                        "price": 190,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as4",
+                        "product": "Паштет из печени",
+                        "size": "1 кг",
+                        "price": 240,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as5",
+                        "product": "Овощное рагу",
+                        "size": "1 кг",
+                        "price": 180,
+                        "count": 1,
+                        "summ": 0
+                    }
+                ],
+                "product_summ": 0,
+                "rate_bonus": 150,
+                "person_discount": 10,
+                "discount_poll": 6,
+                "rate_delivery": 250,
+                "summ_order": "rate",
+                "summ_bonus": "coming_bonus"
+            }
+        },
+        {
+            "id": "acc-01",
+            "order": "4013",
+            "dates": "01.04.2020 12:33",
+            "coming_bonus": 30,
+            "rate": 1100,
+            "addr_account": {
+                "name": "Дом",
+                "addr": "Москва, ул. Дмитрия Ульянова, дом 31, кв. 5"
+            },
+            "data": {
+                "data_account": "Татьяна Жаброва",
+                "tel": [
+                    "+7 495 674-24-78",
+                    "+7 495 674-24-78"
+                ],
+                "date_delivery": {
+                    "dats": "14 марта 2015 года",
+                    "tims": "доставка до 14:00"
+                },
+                "interval_delivery": {
+                    "withs": "16:00",
+                    "before": "18:00"
+                },
+                "comment": [
+                    "Заказ от колл-центра uacall.com",
+                    "Этаж 5 П-зд 2 Домофон 35",
+                    "Клиентка попросила перезвонить за час до доставки"
+                ],
+                "payment_methods": "наличными курьеру",
+               "products_list": [
+                    {
+                        "id": "as1",
+                        "product": "Коровье молоко",
+                        "size": "1 литр",
+                        "price": 70,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as2",
+                        "product": "Сметана",
+                        "size": "200 мл",
+                        "price": 150,
+                        "count": 3,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as7",
+                        "product": "Творог",
+                        "size": "200 гр",
+                        "price": 110,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as6",
+                        "product": "Куриные яйца",
+                        "size": "10 шт",
+                        "price": 145,
+                        "count": 2,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as3",
+                        "product": "Домашние циплята",
+                        "size": "1 шт",
+                        "price": 190,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as4",
+                        "product": "Паштет из печени",
+                        "size": "1 кг",
+                        "price": 240,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as5",
+                        "product": "Овощное рагу",
+                        "size": "1 кг",
+                        "price": 180,
+                        "count": 1,
+                        "summ": 0
+                    }
+                ],
+                "product_summ": 0,
+                "rate_bonus": 150,
+                "person_discount": 10,
+                "discount_poll": 6,
+                "rate_delivery": 250,
+                "summ_order": "rate",
+                "summ_bonus": "coming_bonus"
+            }
+        },
+        {
+            "id": "acc-01",
+            "order": "4013",
+            "dates": "17.05.2020 12:33",
+            "rate": 2300,
+            "addr_account": {
+                "name": "Дом",
+                "addr": "Москва, ул. Дмитрия Ульянова, дом 31, кв. 5"
+            },
+            "data": {
+                "data_account": "Татьяна Жаброва",
+                "tel": [
+                    "+7 495 674-24-78",
+                    "+7 495 674-24-78"
+                ],
+                "date_delivery": {
+                    "dats": "14 марта 2015 года",
+                    "tims": "доставка до 14:00"
+                },
+                "interval_delivery": {
+                    "withs": "16:00",
+                    "before": "18:00"
+                },
+                "comment": [
+                    "Заказ от колл-центра uacall.com",
+                    "Этаж 5 П-зд 2 Домофон 35",
+                    "Клиентка попросила перезвонить за час до доставки"
+                ],
+                "payment_methods": "наличными курьеру",
+               "products_list": [
+                    {
+                        "id": "as1",
+                        "product": "Коровье молоко",
+                        "size": "1 литр",
+                        "price": 70,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as2",
+                        "product": "Сметана",
+                        "size": "200 мл",
+                        "price": 150,
+                        "count": 3,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as7",
+                        "product": "Творог",
+                        "size": "200 гр",
+                        "price": 110,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as6",
+                        "product": "Куриные яйца",
+                        "size": "10 шт",
+                        "price": 145,
+                        "count": 2,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as3",
+                        "product": "Домашние циплята",
+                        "size": "1 шт",
+                        "price": 190,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as4",
+                        "product": "Паштет из печени",
+                        "size": "1 кг",
+                        "price": 240,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as5",
+                        "product": "Овощное рагу",
+                        "size": "1 кг",
+                        "price": 180,
+                        "count": 1,
+                        "summ": 0
+                    }
+                ],
+                "product_summ": 0,
+                "person_discount": 10,
+                "discount_poll": 6,
+                "rate_delivery": 250,
+                "summ_order": "rate",
+                "summ_bonus": "coming_bonus"
+            }
+        },
+        {
+            "id": "acc-02",
+            "order": "4013",
+            "dates": "07.06.2021 12:33",
+            "coming_bonus": 30,
+            "rate": 1100,
+            "addr_account": {
+                "name": "Дом",
+                "addr": "Москва, ул. Дмитрия Ульянова, дом 31, кв. 5"
+            },
+            "data": {
+                "data_account": "Татьяна Жаброва",
+                "tel": [
+                    "+7 495 674-24-78",
+                    "+7 495 674-24-78"
+                ],
+                "date_delivery": {
+                    "dats": "14 марта 2015 года",
+                    "tims": "доставка до 14:00"
+                },
+                "interval_delivery": {
+                    "withs": "16:00",
+                    "before": "18:00"
+                },
+                "comment": [
+                    "Заказ от колл-центра uacall.com",
+                    "Этаж 5 П-зд 2 Домофон 35",
+                    "Клиентка попросила перезвонить за час до доставки"
+                ],
+                "payment_methods": "наличными курьеру",
+               "products_list": [
+                    {
+                        "id": "as1",
+                        "product": "Коровье молоко",
+                        "size": "1 литр",
+                        "price": 70,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as2",
+                        "product": "Сметана",
+                        "size": "200 мл",
+                        "price": 150,
+                        "count": 3,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as7",
+                        "product": "Творог",
+                        "size": "200 гр",
+                        "price": 110,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as6",
+                        "product": "Куриные яйца",
+                        "size": "10 шт",
+                        "price": 145,
+                        "count": 2,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as3",
+                        "product": "Домашние циплята",
+                        "size": "1 шт",
+                        "price": 190,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as4",
+                        "product": "Паштет из печени",
+                        "size": "1 кг",
+                        "price": 240,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as5",
+                        "product": "Овощное рагу",
+                        "size": "1 кг",
+                        "price": 180,
+                        "count": 1,
+                        "summ": 0
+                    }
+                ],
+                "product_summ": 0,
+                "rate_bonus": 150,
+                "person_discount": 10,
+                "discount_poll": 6,
+                "rate_delivery": 250,
+                "summ_order": "rate",
+                "summ_bonus": "coming_bonus"
+            }
+        },
+        {
+            "id": "acc-123",
+            "order": "4013",
+            "dates": "09.07.2021 12:33",
+            "coming_bonus": 30,
+            "rate": 1100,
+            "addr_account": {
+                "name": "Дом",
+                "addr": "Москва, ул. Дмитрия Ульянова, дом 31, кв. 5"
+            },
+            "data": {
+                "data_account": "Татьяна Жаброва",
+                "tel": [
+                    "+7 495 674-24-78",
+                    "+7 495 674-24-78"
+                ],
+                "date_delivery": {
+                    "dats": "14 марта 2015 года",
+                    "tims": "доставка до 14:00"
+                },
+                "interval_delivery": {
+                    "withs": "16:00",
+                    "before": "18:00"
+                },
+                "comment": [
+                    "Заказ от колл-центра uacall.com",
+                    "Этаж 5 П-зд 2 Домофон 35",
+                    "Клиентка попросила перезвонить за час до доставки"
+                ],
+                "payment_methods": "наличными курьеру",
+               "products_list": [
+                    {
+                        "id": "as1",
+                        "product": "Коровье молоко",
+                        "size": "1 литр",
+                        "price": 70,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as2",
+                        "product": "Сметана",
+                        "size": "200 мл",
+                        "price": 150,
+                        "count": 3,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as7",
+                        "product": "Творог",
+                        "size": "200 гр",
+                        "price": 110,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as6",
+                        "product": "Куриные яйца",
+                        "size": "10 шт",
+                        "price": 145,
+                        "count": 2,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as3",
+                        "product": "Домашние циплята",
+                        "size": "1 шт",
+                        "price": 190,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as4",
+                        "product": "Паштет из печени",
+                        "size": "1 кг",
+                        "price": 240,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as5",
+                        "product": "Овощное рагу",
+                        "size": "1 кг",
+                        "price": 180,
+                        "count": 1,
+                        "summ": 0
+                    }
+                ],
+                "product_summ": 0,
+                "rate_bonus": 150,
+                "person_discount": 10,
+                "discount_poll": 6,
+                "rate_delivery": 250,
+                "summ_order": "rate",
+                "summ_bonus": "coming_bonus"
+            }
+        },
+        {
+            "id": "acc-01",
+            "order": "4013",
+            "dates": "01-03-2021 12:33",
+            "coming_bonus": 30,
+            "rate": 1100,
+            "addr_account": {
+                "name": "Дом",
+                "addr": "Москва, ул. Дмитрия Ульянова, дом 31, кв. 5"
+            },
+            "data": {
+                "data_account": "Татьяна Жаброва",
+                "tel": [
+                    "+7 495 674-24-78",
+                    "+7 495 674-24-78"
+                ],
+                "date_delivery": {
+                    "dats": "14 марта 2015 года",
+                    "tims": "доставка до 14:00"
+                },
+                "interval_delivery": {
+                    "withs": "16:00",
+                    "before": "18:00"
+                },
+                "comment": [
+                    "Заказ от колл-центра uacall.com",
+                    "Этаж 5 П-зд 2 Домофон 35",
+                    "Клиентка попросила перезвонить за час до доставки"
+                ],
+                "payment_methods": "наличными курьеру",
+               "products_list": [
+                    {
+                        "id": "as1",
+                        "product": "Коровье молоко",
+                        "size": "1 литр",
+                        "price": 70,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as2",
+                        "product": "Сметана",
+                        "size": "200 мл",
+                        "price": 150,
+                        "count": 3,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as7",
+                        "product": "Творог",
+                        "size": "200 гр",
+                        "price": 110,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as6",
+                        "product": "Куриные яйца",
+                        "size": "10 шт",
+                        "price": 145,
+                        "count": 2,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as3",
+                        "product": "Домашние циплята",
+                        "size": "1 шт",
+                        "price": 190,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as4",
+                        "product": "Паштет из печени",
+                        "size": "1 кг",
+                        "price": 240,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as5",
+                        "product": "Овощное рагу",
+                        "size": "1 кг",
+                        "price": 180,
+                        "count": 1,
+                        "summ": 0
+                    }
+                ],
+                "product_summ": 0,
+                "rate_bonus": 150,
+                "person_discount": 10,
+                "discount_poll": 6,
+                "rate_delivery": 250,
+                "summ_order": "rate",
+                "summ_bonus": "coming_bonus"
+            }
+        },
+        {
+            "id": "acc-02",
+            "order": "4013",
+            "dates": "01-03-2021 12:33",
+            "coming_bonus": 30,
+            "rate": 1100,
+            "addr_account": {
+                "name": "Дом",
+                "addr": "Москва, ул. Дмитрия Ульянова, дом 31, кв. 5"
+            },
+            "data": {
+                "data_account": "Татьяна Жаброва",
+                "tel": [
+                    "+7 495 674-24-78",
+                    "+7 495 674-24-78"
+                ],
+                "date_delivery": {
+                    "dats": "14 марта 2015 года",
+                    "tims": "доставка до 14:00"
+                },
+                "interval_delivery": {
+                    "withs": "16:00",
+                    "before": "18:00"
+                },
+                "comment": [
+                    "Заказ от колл-центра uacall.com",
+                    "Этаж 5 П-зд 2 Домофон 35",
+                    "Клиентка попросила перезвонить за час до доставки"
+                ],
+                "payment_methods": "наличными курьеру",
+               "products_list": [
+                    {
+                        "id": "as1",
+                        "product": "Коровье молоко",
+                        "size": "1 литр",
+                        "price": 70,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as2",
+                        "product": "Сметана",
+                        "size": "200 мл",
+                        "price": 150,
+                        "count": 3,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as7",
+                        "product": "Творог",
+                        "size": "200 гр",
+                        "price": 110,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as6",
+                        "product": "Куриные яйца",
+                        "size": "10 шт",
+                        "price": 145,
+                        "count": 2,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as3",
+                        "product": "Домашние циплята",
+                        "size": "1 шт",
+                        "price": 190,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as4",
+                        "product": "Паштет из печени",
+                        "size": "1 кг",
+                        "price": 240,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as5",
+                        "product": "Овощное рагу",
+                        "size": "1 кг",
+                        "price": 180,
+                        "count": 1,
+                        "summ": 0
+                    }
+                ],
+                "product_summ": 0,
+                "rate_bonus": 150,
+                "person_discount": 10,
+                "discount_poll": 6,
+                "rate_delivery": 250,
+                "summ_order": "rate",
+                "summ_bonus": "coming_bonus"
+            }
+        },
+        {
+            "id": "acc-01",
+            "order": "4013",
+            "dates": "01-03-2021 12:33",
+            "coming_bonus": 30,
+            "rate": 1100,
+            "addr_account": {
+                "name": "Дом",
+                "addr": "Москва, ул. Дмитрия Ульянова, дом 31, кв. 5"
+            },
+            "data": {
+                "data_account": "Татьяна Жаброва",
+                "tel": [
+                    "+7 495 674-24-78",
+                    "+7 495 674-24-78"
+                ],
+                "date_delivery": {
+                    "dats": "14 марта 2015 года",
+                    "tims": "доставка до 14:00"
+                },
+                "interval_delivery": {
+                    "withs": "16:00",
+                    "before": "18:00"
+                },
+                "comment": [
+                    "Заказ от колл-центра uacall.com",
+                    "Этаж 5 П-зд 2 Домофон 35",
+                    "Клиентка попросила перезвонить за час до доставки"
+                ],
+                "payment_methods": "наличными курьеру",
+               "products_list": [
+                    {
+                        "id": "as1",
+                        "product": "Коровье молоко",
+                        "size": "1 литр",
+                        "price": 70,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as2",
+                        "product": "Сметана",
+                        "size": "200 мл",
+                        "price": 150,
+                        "count": 3,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as7",
+                        "product": "Творог",
+                        "size": "200 гр",
+                        "price": 110,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as6",
+                        "product": "Куриные яйца",
+                        "size": "10 шт",
+                        "price": 145,
+                        "count": 2,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as3",
+                        "product": "Домашние циплята",
+                        "size": "1 шт",
+                        "price": 190,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as4",
+                        "product": "Паштет из печени",
+                        "size": "1 кг",
+                        "price": 240,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as5",
+                        "product": "Овощное рагу",
+                        "size": "1 кг",
+                        "price": 180,
+                        "count": 1,
+                        "summ": 0
+                    }
+                ],
+                "product_summ": 0,
+                "rate_bonus": 150,
+                "person_discount": 10,
+                "discount_poll": 6,
+                "rate_delivery": 250,
+                "summ_order": "rate",
+                "summ_bonus": "coming_bonus"
+            }
+        },
+        {
+            "id": "acc-01",
+            "order": "4013",
+            "dates": "01-03-2021 12:33",
+            "coming_bonus": 30,
+            "rate": 1100,
+            "addr_account": {
+                "name": "Дом",
+                "addr": "Москва, ул. Дмитрия Ульянова, дом 31, кв. 5"
+            },
+            "data": {
+                "data_account": "Татьяна Жаброва",
+                "tel": [
+                    "+7 495 674-24-78",
+                    "+7 495 674-24-78"
+                ],
+                "date_delivery": {
+                    "dats": "14 марта 2015 года",
+                    "tims": "доставка до 14:00"
+                },
+                "interval_delivery": {
+                    "withs": "16:00",
+                    "before": "18:00"
+                },
+                "comment": [
+                    "Заказ от колл-центра uacall.com",
+                    "Этаж 5 П-зд 2 Домофон 35",
+                    "Клиентка попросила перезвонить за час до доставки"
+                ],
+                "payment_methods": "наличными курьеру",
+               "products_list": [
+                    {
+                        "id": "as1",
+                        "product": "Коровье молоко",
+                        "size": "1 литр",
+                        "price": 70,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as2",
+                        "product": "Сметана",
+                        "size": "200 мл",
+                        "price": 150,
+                        "count": 3,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as7",
+                        "product": "Творог",
+                        "size": "200 гр",
+                        "price": 110,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as6",
+                        "product": "Куриные яйца",
+                        "size": "10 шт",
+                        "price": 145,
+                        "count": 2,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as3",
+                        "product": "Домашние циплята",
+                        "size": "1 шт",
+                        "price": 190,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as4",
+                        "product": "Паштет из печени",
+                        "size": "1 кг",
+                        "price": 240,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as5",
+                        "product": "Овощное рагу",
+                        "size": "1 кг",
+                        "price": 180,
+                        "count": 1,
+                        "summ": 0
+                    }
+                ],
+                "product_summ": 0,
+                "rate_bonus": 150,
+                "person_discount": 10,
+                "discount_poll": 6,
+                "rate_delivery": 250,
+                "summ_order": "rate",
+                "summ_bonus": "coming_bonus"
+            }
+        },
+        {
+            "id": "acc-02",
+            "order": "4013",
+            "dates": "01-03-2021 12:33",
+            "coming_bonus": 30,
+            "rate": 1100,
+            "addr_account": {
+                "name": "Дом",
+                "addr": "Москва, ул. Дмитрия Ульянова, дом 31, кв. 5"
+            },
+            "data": {
+                "data_account": "Татьяна Жаброва",
+                "tel": [
+                    "+7 495 674-24-78",
+                    "+7 495 674-24-78"
+                ],
+                "date_delivery": {
+                    "dats": "14 марта 2015 года",
+                    "tims": "доставка до 14:00"
+                },
+                "interval_delivery": {
+                    "withs": "16:00",
+                    "before": "18:00"
+                },
+                "comment": [
+                    "Заказ от колл-центра uacall.com",
+                    "Этаж 5 П-зд 2 Домофон 35",
+                    "Клиентка попросила перезвонить за час до доставки"
+                ],
+                "payment_methods": "наличными курьеру",
+               "products_list": [
+                    {
+                        "id": "as1",
+                        "product": "Коровье молоко",
+                        "size": "1 литр",
+                        "price": 70,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as2",
+                        "product": "Сметана",
+                        "size": "200 мл",
+                        "price": 150,
+                        "count": 3,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as7",
+                        "product": "Творог",
+                        "size": "200 гр",
+                        "price": 110,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as6",
+                        "product": "Куриные яйца",
+                        "size": "10 шт",
+                        "price": 145,
+                        "count": 2,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as3",
+                        "product": "Домашние циплята",
+                        "size": "1 шт",
+                        "price": 190,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as4",
+                        "product": "Паштет из печени",
+                        "size": "1 кг",
+                        "price": 240,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as5",
+                        "product": "Овощное рагу",
+                        "size": "1 кг",
+                        "price": 180,
+                        "count": 1,
+                        "summ": 0
+                    }
+                ],
+                "product_summ": 0,
+                "rate_bonus": 150,
+                "person_discount": 10,
+                "discount_poll": 6,
+                "rate_delivery": 250,
+                "summ_order": "rate",
+                "summ_bonus": "coming_bonus"
+            }
+        },
+        {
+            "id": "acc-01",
+            "order": "4013",
+            "dates": "01-03-2021 12:33",
+            "coming_bonus": 30,
+            "rate": 1100,
+            "addr_account": {
+                "name": "Дом",
+                "addr": "Москва, ул. Дмитрия Ульянова, дом 31, кв. 5"
+            },
+            "data": {
+                "data_account": "Татьяна Жаброва",
+                "tel": [
+                    "+7 495 674-24-78",
+                    "+7 495 674-24-78"
+                ],
+                "date_delivery": {
+                    "dats": "14 марта 2015 года",
+                    "tims": "доставка до 14:00"
+                },
+                "interval_delivery": {
+                    "withs": "16:00",
+                    "before": "18:00"
+                },
+                "comment": [
+                    "Заказ от колл-центра uacall.com",
+                    "Этаж 5 П-зд 2 Домофон 35",
+                    "Клиентка попросила перезвонить за час до доставки"
+                ],
+                "payment_methods": "наличными курьеру",
+               "products_list": [
+                    {
+                        "id": "as1",
+                        "product": "Коровье молоко",
+                        "size": "1 литр",
+                        "price": 70,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as2",
+                        "product": "Сметана",
+                        "size": "200 мл",
+                        "price": 150,
+                        "count": 3,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as7",
+                        "product": "Творог",
+                        "size": "200 гр",
+                        "price": 110,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as6",
+                        "product": "Куриные яйца",
+                        "size": "10 шт",
+                        "price": 145,
+                        "count": 2,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as3",
+                        "product": "Домашние циплята",
+                        "size": "1 шт",
+                        "price": 190,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as4",
+                        "product": "Паштет из печени",
+                        "size": "1 кг",
+                        "price": 240,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as5",
+                        "product": "Овощное рагу",
+                        "size": "1 кг",
+                        "price": 180,
+                        "count": 1,
+                        "summ": 0
+                    }
+                ],
+                "product_summ": 0,
+                "rate_bonus": 150,
+                "person_discount": 10,
+                "discount_poll": 6,
+                "rate_delivery": 250,
+                "summ_order": "rate",
+                "summ_bonus": "coming_bonus"
+            }
+        },
+        {
+            "id": "acc-01",
+            "order": "4013",
+            "dates": "01-03-2021 12:33",
+            "coming_bonus": 30,
+            "rate": 1100,
+            "addr_account": {
+                "name": "Дом",
+                "addr": "Москва, ул. Дмитрия Ульянова, дом 31, кв. 5"
+            },
+            "data": {
+                "data_account": "Татьяна Жаброва",
+                "tel": [
+                    "+7 495 674-24-78",
+                    "+7 495 674-24-78"
+                ],
+                "date_delivery": {
+                    "dats": "14 марта 2015 года",
+                    "tims": "доставка до 14:00"
+                },
+                "interval_delivery": {
+                    "withs": "16:00",
+                    "before": "18:00"
+                },
+                "comment": [
+                    "Заказ от колл-центра uacall.com",
+                    "Этаж 5 П-зд 2 Домофон 35",
+                    "Клиентка попросила перезвонить за час до доставки"
+                ],
+                "payment_methods": "наличными курьеру",
+               "products_list": [
+                    {
+                        "id": "as1",
+                        "product": "Коровье молоко",
+                        "size": "1 литр",
+                        "price": 70,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as2",
+                        "product": "Сметана",
+                        "size": "200 мл",
+                        "price": 150,
+                        "count": 3,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as7",
+                        "product": "Творог",
+                        "size": "200 гр",
+                        "price": 110,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as6",
+                        "product": "Куриные яйца",
+                        "size": "10 шт",
+                        "price": 145,
+                        "count": 2,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as3",
+                        "product": "Домашние циплята",
+                        "size": "1 шт",
+                        "price": 190,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as4",
+                        "product": "Паштет из печени",
+                        "size": "1 кг",
+                        "price": 240,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as5",
+                        "product": "Овощное рагу",
+                        "size": "1 кг",
+                        "price": 180,
+                        "count": 1,
+                        "summ": 0
+                    }
+                ],
+                "product_summ": 0,
+                "rate_bonus": 150,
+                "person_discount": 10,
+                "discount_poll": 6,
+                "rate_delivery": 250,
+                "summ_order": "rate",
+                "summ_bonus": "coming_bonus"
+            }
+        },
+        {
+            "id": "acc-02",
+            "order": "4013",
+            "dates": "01-03-2021 12:33",
+            "coming_bonus": 30,
+            "rate": 1100,
+            "addr_account": {
+                "name": "Дом",
+                "addr": "Москва, ул. Дмитрия Ульянова, дом 31, кв. 5"
+            },
+            "data": {
+                "data_account": "Татьяна Жаброва",
+                "tel": [
+                    "+7 495 674-24-78",
+                    "+7 495 674-24-78"
+                ],
+                "date_delivery": {
+                    "dats": "14 марта 2015 года",
+                    "tims": "доставка до 14:00"
+                },
+                "interval_delivery": {
+                    "withs": "16:00",
+                    "before": "18:00"
+                },
+                "comment": [
+                    "Заказ от колл-центра uacall.com",
+                    "Этаж 5 П-зд 2 Домофон 35",
+                    "Клиентка попросила перезвонить за час до доставки"
+                ],
+                "payment_methods": "наличными курьеру",
+               "products_list": [
+                    {
+                        "id": "as1",
+                        "product": "Коровье молоко",
+                        "size": "1 литр",
+                        "price": 70,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as2",
+                        "product": "Сметана",
+                        "size": "200 мл",
+                        "price": 150,
+                        "count": 3,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as7",
+                        "product": "Творог",
+                        "size": "200 гр",
+                        "price": 110,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as6",
+                        "product": "Куриные яйца",
+                        "size": "10 шт",
+                        "price": 145,
+                        "count": 2,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as3",
+                        "product": "Домашние циплята",
+                        "size": "1 шт",
+                        "price": 190,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as4",
+                        "product": "Паштет из печени",
+                        "size": "1 кг",
+                        "price": 240,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as5",
+                        "product": "Овощное рагу",
+                        "size": "1 кг",
+                        "price": 180,
+                        "count": 1,
+                        "summ": 0
+                    }
+                ],
+                "product_summ": 0,
+                "rate_bonus": 150,
+                "person_discount": 10,
+                "discount_poll": 6,
+                "rate_delivery": 250,
+                "summ_order": "rate",
+                "summ_bonus": "coming_bonus"
+            }
+        },
+        {
+            "id": "acc-01",
+            "order": "4013",
+            "dates": "01-03-2021 12:33",
+            "coming_bonus": 30,
+            "rate": 1100,
+            "addr_account": {
+                "name": "Дом",
+                "addr": "Москва, ул. Дмитрия Ульянова, дом 31, кв. 5"
+            },
+            "data": {
+                "data_account": "Татьяна Жаброва",
+                "tel": [
+                    "+7 495 674-24-78",
+                    "+7 495 674-24-78"
+                ],
+                "date_delivery": {
+                    "dats": "14 марта 2015 года",
+                    "tims": "доставка до 14:00"
+                },
+                "interval_delivery": {
+                    "withs": "16:00",
+                    "before": "18:00"
+                },
+                "comment": [
+                    "Заказ от колл-центра uacall.com",
+                    "Этаж 5 П-зд 2 Домофон 35",
+                    "Клиентка попросила перезвонить за час до доставки"
+                ],
+                "payment_methods": "наличными курьеру",
+               "products_list": [
+                    {
+                        "id": "as1",
+                        "product": "Коровье молоко",
+                        "size": "1 литр",
+                        "price": 70,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as2",
+                        "product": "Сметана",
+                        "size": "200 мл",
+                        "price": 150,
+                        "count": 3,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as7",
+                        "product": "Творог",
+                        "size": "200 гр",
+                        "price": 110,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as6",
+                        "product": "Куриные яйца",
+                        "size": "10 шт",
+                        "price": 145,
+                        "count": 2,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as3",
+                        "product": "Домашние циплята",
+                        "size": "1 шт",
+                        "price": 190,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as4",
+                        "product": "Паштет из печени",
+                        "size": "1 кг",
+                        "price": 240,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as5",
+                        "product": "Овощное рагу",
+                        "size": "1 кг",
+                        "price": 180,
+                        "count": 1,
+                        "summ": 0
+                    }
+                ],
+                "product_summ": 0,
+                "rate_bonus": 150,
+                "person_discount": 10,
+                "discount_poll": 6,
+                "rate_delivery": 250,
+                "summ_order": "rate",
+                "summ_bonus": "coming_bonus"
+            }
+        },
+        {
+            "id": "acc-01",
+            "order": "4013",
+            "dates": "01-03-2021 12:33",
+            "coming_bonus": 30,
+            "rate": 1100,
+            "addr_account": {
+                "name": "Дом",
+                "addr": "Москва, ул. Дмитрия Ульянова, дом 31, кв. 5"
+            },
+            "data": {
+                "data_account": "Татьяна Жаброва",
+                "tel": [
+                    "+7 495 674-24-78",
+                    "+7 495 674-24-78"
+                ],
+                "date_delivery": {
+                    "dats": "14 марта 2015 года",
+                    "tims": "доставка до 14:00"
+                },
+                "interval_delivery": {
+                    "withs": "16:00",
+                    "before": "18:00"
+                },
+                "comment": [
+                    "Заказ от колл-центра uacall.com",
+                    "Этаж 5 П-зд 2 Домофон 35",
+                    "Клиентка попросила перезвонить за час до доставки"
+                ],
+                "payment_methods": "наличными курьеру",
+               "products_list": [
+                    {
+                        "id": "as1",
+                        "product": "Коровье молоко",
+                        "size": "1 литр",
+                        "price": 70,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as2",
+                        "product": "Сметана",
+                        "size": "200 мл",
+                        "price": 150,
+                        "count": 3,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as7",
+                        "product": "Творог",
+                        "size": "200 гр",
+                        "price": 110,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as6",
+                        "product": "Куриные яйца",
+                        "size": "10 шт",
+                        "price": 145,
+                        "count": 2,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as3",
+                        "product": "Домашние циплята",
+                        "size": "1 шт",
+                        "price": 190,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as4",
+                        "product": "Паштет из печени",
+                        "size": "1 кг",
+                        "price": 240,
+                        "count": 1,
+                        "summ": 0
+                    },
+                    {
+                        "id": "as5",
+                        "product": "Овощное рагу",
+                        "size": "1 кг",
+                        "price": 180,
+                        "count": 1,
+                        "summ": 0
+                    }
+                ],
+                "product_summ": 0,
+                "rate_bonus": 150,
+                "person_discount": 10,
+                "discount_poll": 6,
+                "rate_delivery": 250,
+                "summ_order": "rate",
+                "summ_bonus": "coming_bonus"
+            }
+        }
+    ]
+}
