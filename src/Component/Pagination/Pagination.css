@@ -5,10 +5,11 @@
     border-radius: 50%;
 }
 
-.pagination .page-item a {
+.pagination .page-item span {
     font-size: 1.7vw;
     text-decoration: none;
     color: #000;
+    cursor: pointer;
 }
 
 .pagination .active {
@@ -19,9 +20,9 @@
     border: 0.2px rgb(233, 233, 232) solid
 }
 
-.pagination .active a {
+.pagination .active > span {
     font-weight: 100;
-    text-decoration: none;
+    text-decoration: none !important;
     color: #fff;
 }
 
@@ -56,7 +57,7 @@ ul{
 }
 
 .disabled,
-.pagination .page-item a,
+.pagination .page-item span,
 .pagination .page-next_prev>span {
     text-decoration: underline;
     -webkit-text-decoration-skip-ink: none;

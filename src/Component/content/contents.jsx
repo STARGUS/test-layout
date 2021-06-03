@@ -73,8 +73,8 @@ function Contents(props) {
     }
     //состояние открытие окна заказов
     if (!isActive || !props.detail) {
-        types = "buttom"
-        style_form += " hover"
+        types = "buttom";
+        style_form += " hover";
     }
     // назначение имен пропсов
     const { order,
@@ -161,7 +161,7 @@ function Contents(props) {
                         </ReactCSSTransitionGroup>
                         <div></div>
                         <div>Стоимость продуктов</div>
-                        <div className={MoDorate + "size1_1"}>{product_summ} &#8381;</div>
+                        <div className={MoDorate + "size1_1"}>{product_summs} &#8381;</div>
                         <div>Оплачено балами</div>
                         <div className="rate-bonus size1_1">{rate_bonus ? (<>{rate_bonus}&#x263B;</>) : 0}</div>
                         <div>Персональная скидка</div>
@@ -171,9 +171,9 @@ function Contents(props) {
                         <div>Стоимость доставки</div>
                         <div className="size1_2">{rate_delivery} &#8381;</div>
                         <div className="pluss2">Повторить весь заказ</div>
-                        <div className="size1_4_bold"><div className={MoDorate + "pluss1"}>{summ_order} &#8381;</div> <div className="plus_add plus_add_1">+</div> <div className="povtororder fontdecor">Повторить весь заказ</div></div>
+                        <div className="size1_4_bold"><div className={MoDorate + "pluss1"}>{summ_orders} &#8381;</div> <div className="plus_add plus_add_1">+</div> <div className="povtororder fontdecor">Повторить весь заказ</div></div>
                         <div>Бонус балов за заказ</div>
-                        <div className="rate-bonus size1_1">{coming_bonus && (<>{coming_bonus}&#x263B;</>)}</div>
+                        <div className="rate-bonus size1_1">{coming_bonus ? (<>{coming_bonus}&#x263B;</>) : 0}</div>
                     </div>
 
                 )

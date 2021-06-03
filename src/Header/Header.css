@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 .head {
-    overflow:hidden;
+    overflow: hidden;
     margin-left: 1.5vw;
 
 }
-.boximg .img{
+
+.boximg .img {
     background-repeat: repeat;
     width: 5vw;
     height: 5vw;
@@ -15,11 +16,11 @@
     margin-right: 2vw;
     /* display: flex; */
     display: -ms-grid;
-    display: grid; 
+    display: grid;
     grid-auto-flow: dense;
     -webkit-column-gap: 1.3vw;
-       -moz-column-gap: 1.3vw;
-            column-gap: 1.3vw;
+    -moz-column-gap: 1.3vw;
+    column-gap: 1.3vw;
     -ms-grid-columns: 25vw 1.3vw 16vw 1.3vw 11.5vw 1.3vw 11.5vw 1.3vw 26.5vw;
     grid-template-columns: 25vw 16vw 11.5vw 11.5vw 26.5vw;
 }
@@ -37,8 +38,8 @@
     grid-template-columns: 1fr 1fr;
     gap: 2vw;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     padding-left: 1vw !important;
     padding-right: 1vw !important;
     position: relative;
@@ -71,11 +72,14 @@
     font-size: 1.6vw;
     font-weight: 600 !important;
 }
-.fontdecor{
-    text-decoration:underline;
+
+.fontdecor {
+    cursor: pointer;
+    text-decoration: underline;
     -webkit-text-decoration-skip-ink: none;
-            text-decoration-skip-ink: none;
+    text-decoration-skip-ink: none;
 }
+
 .item-head-06 {
     display: -ms-grid;
     display: grid;
@@ -84,11 +88,13 @@
     gap: 1vw;
     width: 26.5vw;
 }
-.item-head-06 .fontsize{
+
+.item-head-06 .fontsize {
     padding: 0px !important;
     font-size: 1.6vw;
+    cursor: pointer;
     font-weight: 200;
     text-decoration: underline;
     -webkit-text-decoration-skip-ink: none !important;
-            text-decoration-skip-ink: none !important;
+    text-decoration-skip-ink: none !important;
 }

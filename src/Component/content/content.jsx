@@ -60,6 +60,7 @@ class Content extends Component {
                     list_content: this.state.account,
                     isActivyears: true
                 });
+                this.dop2();
             } else {
                 this.setState({
                     isActivyears: true
@@ -77,13 +78,11 @@ class Content extends Component {
                 this.setState({
                     list_content: this.state.list_content.filter((a) => this.state.date1.getFullYear() == (new Date(a.dates).getFullYear()))
                 })
-                // this.dop2();
             }
             if (this.state.data_time == "за месяц") {
                 this.setState({
                     list_content: this.state.list_content.filter((a) => (this.state.date1.getMonth() + 1 == (new Date(a.dates).getDate()) && this.state.date1.getFullYear() == (new Date(a.dates).getFullYear())))
                 })
-                // this.dop2();
             }
             if (this.state.data_time != "за год" && this.state.data_time != "за месяц") {
                 this.setState({

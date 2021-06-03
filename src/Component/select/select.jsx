@@ -3,11 +3,11 @@ import React, { useState } from "react";
 import ReactCSSTransitionGroup from "react-addons-css-transition-group"
 
 
-function Selecting({ name_adr, onChange = Function.prototype }) {
+function Selecting({ name_adr, onChange = Function.prototype }, props) {
     //создание состояний изменяемых элементов (для рендеринга значений)
     const [ul, setUl] = useState(false),
-        [data, setData] = useState("Все адреса"),
-        [time, setTime] = useState("за все время"),
+        [data, setData] = useState(props.data ? props.data : "Все адреса"),
+        [time, setTime] = useState(props.data_time ? props.data_time : "за все время"),
         ul_list_on = () => {
             setUl(!ul) // при клике всплавыющий список
         },
@@ -17,7 +17,7 @@ function Selecting({ name_adr, onChange = Function.prototype }) {
         month = "за месяц",
         prochie = "Прочие адреса",
         all_time = "за все время",
-
+    
         li_data = (e) => { // функция призвоения значения родителю дочерних элементов всплывающнго списка
             if (e.target.textContent != all_adr) { // если событе клика по указанному элементу
                 if (name_adr) {
@@ -35,6 +35,7 @@ function Selecting({ name_adr, onChange = Function.prototype }) {
                 if (e.target.textContent == years) {
                     setTime(years);
                     onChange();
+                    console.log(e.target.textContent);
                 }
                 if (e.target.textContent == month) {
                     setTime(month);
@@ -49,6 +50,9 @@ function Selecting({ name_adr, onChange = Function.prototype }) {
                 onChange();
             }
             setUl(false); // функция скрытия всплывающей области
+        };
+        if(props.data_time){
+            setTime(props.data_time)
         }
     return (// если в модуль приходят значения адресов из базы
 

@@ -35,12 +35,12 @@ export default function Pagination({ postPerPage, totalPost, paginete, currentPa
                             key={i + "as"}
                             // при клике присваиват еласс активного элемента
                             className={(currentPage == i) ? "page-item active" : "page-item"}>
-                            <a
+                            <span
                                 onClick={() => paginete(i)} //получает значение страницы кликнутого элемента
-                                href="!#"
+                                // href={"page-"+i}
                                 className="page-link">
                                 {i}
-                            </a>
+                            </span>
                         </li>
                     ))}
             </ul>
