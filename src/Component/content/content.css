@@ -341,3 +341,8 @@
     top: -1.2rem;
     left: -1rem;
 }
+
+.block-content .up{
+    vertical-align: super;
+    font-size: 1vw;
+}

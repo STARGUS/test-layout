@@ -96,6 +96,8 @@ function Contents(props) {
         comment
     } = props;
     // повторный расчет суммы заказа для заголовка заказа
+    let withing = withs.split(":");
+    let befores = before.split(":");
     let product_summs = 0;
     props.products_list.map(i => product_summs += i.price * i.count);
     let summ_orders = ((product_summs - ((rate_bonus) ? rate_bonus : 0)) - ((product_summs - ((rate_bonus) ? rate_bonus : 0)) * (person_discount + discount_poll) / 100) + rate_delivery).toFixed();
@@ -135,7 +137,7 @@ function Contents(props) {
                         <div>Дата доставка</div>
                         <div>{dats}&nbsp;{tims}</div>
                         <div>Интервал доставки</div>
-                        <div>{withs}&#8212;{before}</div>
+                        <div>{withing[0]}<span className="up">{withing[1]}</span> &#8212;{befores[0]}<span className="up">{befores[1]}</span></div>
                         <div>Комментарий</div>
                         <div>{comment.map(item => (<div>{item}</div>))}</div>
                         <div>Способы оплаты</div>
