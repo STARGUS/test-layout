@@ -1,20 +1,10 @@
-import React from "react"
+import React from 'react';
+import Products from './products.jsx';
 // вывод элемента продукта в заказе
 function Prod(props) {
-        const { count, Pl = Function.prototype, MoDorate } = props;
-
-        return (
-                count.map((item, index) => (<>
-                        <div className="item_prod">{item.product}</div>
-                        <div>{item.size}</div>
-                        <i className="plus_add" onClick={() => { Pl(item.id);}}>+</i>
-                        <div className="rate-style-1">{item.price} &#8381;</div>
-                        <div className={MoDorate}>x {item.count}</div>
-                        <div>=</div>
-                        <div className={MoDorate + " rate-style-1"}>{item.count * item.price} &#8381;</div>
-                </>))
-        );
-
+    return props.count.map((item, index) => (
+        <Products key={index + 'prod'} item={item} Pl={props.Pl} />
+    ));
 }
 
 export default Prod;
